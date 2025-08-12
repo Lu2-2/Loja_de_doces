@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    /* Fundo */
+    --color_1:#850e35;
+    --color_2: #ee6983;
+    --color_3: #ffc4c4;
+    --color_4: #fff5e4;
+
+    /* Fontes */
+    --font_1: "Roboto", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--font_1);
+    color: var(--color_4);
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav_container{
+    height: 10vh;
+    background: linear-gradient(to right, var(--color_1), 
+    var(--color_2), var(--color_3), var(--color_4));
+}
+
+.nav_btn{
+    color: var(--color_4);
+    text-decoration: none;
+}
+
+.main_tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-image: url('/assets/tittle_background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main_t_card h1{
+    font-size: 60px;
+}
+
+
+.main_t_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--color_1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px var(--color_1);
+    padding: 20px;
+}
+
+.btn_tittle{
+    background: var(--color_2);
+    color: white;
+    margin-top: 10px;
+}
+
+.main_p_cards img{
+    width: 300px;
+}
