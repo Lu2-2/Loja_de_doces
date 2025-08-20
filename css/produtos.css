@@ -1,0 +1,38 @@
+.sales{
+    text-align: center;
+    background: var(--color_6);
+    padding: 20px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.products img{
+    width: 250px;
+    border-radius: 15px;
+    border: 5px solid var(--color_4);
+}
+
+.product h2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+}
+
+.main_card{
+    margin-top: 80px;
+}
+
+.buy_btn{
+    background: var(--color_3);
+    margin: 10px;
+}

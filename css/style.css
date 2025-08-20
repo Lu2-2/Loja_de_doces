@@ -2,10 +2,11 @@
 :root{
     /* Fundo */
     --color_1:#850e35;
-    --color_2: #ee6983;
+    --color_2: #ee6983; 
     --color_3: #ffc4c4;
     --color_4: #f3e6e6;
     --color_5: #5e4e4e;
+    --color_6: #b08080;
 
     /* Fontes */
     --font_1: "Intro Regular", sans-serif;
