@@ -1,3 +1,7 @@
+header{
+    display: inline;
+}
+
 .sales{
     text-align: center;
     background: var(--color_6);
@@ -10,10 +14,11 @@
     gap: 20px;
     flex-wrap: wrap;
     padding: 20px;
+    margin-top: 30px;
 }
 
 .products img{
-    width: 250px;
+    width: 240px;
     border-radius: 15px;
     border: 5px solid var(--color_4);
 }
@@ -28,11 +33,31 @@
     height: 50px;
 }
 
+.img_card{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.img_card:hover{
+    transform: scale(1.05);
+}
+
+.card_tittle{
+    font-size: 1.6rem;
+}
+
 .main_card{
     margin-top: 80px;
 }
 
 .buy_btn{
     background: var(--color_3);
+    color: var(--color_5);
     margin: 10px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.buy_btn:hover{
+    background: var(--color_4);
+    transform: scale(1.1);
 }
